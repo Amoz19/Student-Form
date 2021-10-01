@@ -1,0 +1,219 @@
+body{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+	background-image: url('../image/sun.jpg');
+    font-family: Book Antiqua;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#container{
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+	
+}
+
+#student_registration_div{
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+    padding: 20px 0;
+}
+
+#student_registration_div a{
+    text-decoration: none;
+    padding: 5px 10px;
+    text-align: center;
+    background-color: #54D6c1;
+    color: #000000;
+    border-radius: 6px;
+    border:1px solid #000000;
+}
+
+#student_form_div,#edit_student_form_div{
+	background-image: url('../image/aa.png');
+    width: 80%;
+    height: 480px;
+    margin: 0 auto;
+    padding: 0 auto;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    color: #000000;
+}
+
+#student_form_div h3,#edit_student_form_div h3{
+   text-align: center;;
+}
+
+#student_form_div .input_row,#edit_student_form_div .input_row{
+    width: 50%;
+    height: 60px;
+    margin: 0 auto;
+}
+
+#student_form_div .label_div,#edit_student_form_div .label_div{
+    width: 40%;
+    float: left;
+}
+
+#student_form_div .input_div,#edit_student_form_div .input_div{
+	margin-top:15px;
+    width: 60%;
+    float: left;
+    border: 35px 45px; 
+}
+#student_form_div .input_div #years,#edit_student_form_div .input_div #edit_years{
+    width: 25%;
+    height: 27px;
+}
+#student_form_div .input_div #months,#edit_student_form_div .input_div #edit_months{
+    width: 15%;
+    height: 27px;
+}
+#student_form_div .input_div #days,#edit_student_form_div .input_div #edit_days{
+    width: 15%;
+    height: 27px;
+}
+#student_form_div .input_div #education_level,#edit_student_form_div .input_div #edit_education_level{
+    width: 57%;
+    height: 27px;
+}
+
+#student_form_div .input_div #cty_cod,#edit_student_form_div .input_div #edit_cty_cod {
+    width:17%;
+    height: 25px;
+    
+}
+
+#student_form_div .input_div #ph_no ,#edit_student_form_div .input_div #edit_ph_no{
+	
+    width:36%;
+    
+}
+
+.clr{
+    clear: both;
+}
+
+.label_div{
+    line-height: 50px;
+  
+}
+
+.input_div input[type="text"]{
+	width: 55%;
+    height: 20px;
+}
+
+
+
+
+.input_div input[type="reset"]{
+    width: 20%;
+    float: left;
+    height: 30px;
+    margin-right: 20%;
+    background-color: #eb0808;
+    border-radius: 4px;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.input_div input[type="submit"]{
+    width: 20%;
+    float: left;
+    height: 30px;
+    background-color: #35e925;
+    border-radius: 4px;
+    border: none;
+    color: #000000;
+    cursor: pointer;
+}
+
+#student_list_div{
+    width: 80%;
+    margin: 10px auto 0 auto;
+    padding: 0;
+    border-radius: 4px;
+   
+}
+
+#student_list_div h3{
+    text-align: center;
+}
+
+#student_list_div table{
+    border: 1px solid #000000;
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color:#092b3a;
+    color:#ffffff;
+    margin-bottom: 20px;
+    
+    
+}
+
+#student_list_div table tr{
+    height: 50px;
+    
+}
+
+#student_list_div table tr .header_row{
+    border-bottom: 1px solid #000000;
+}
+
+#student_list_div table th{
+    height: 30px;
+    text-align: left;
+    width: 25%;
+    padding-left: 50px;
+}
+
+#student_list_div table td{
+    padding-left: 50px;
+}
+
+#student_list_div table tr td{
+    border-bottom: 1px solid #ffffff;
+    text-align: left;
+    padding-left: 20px;
+}
+
+#student_list_div table tr td input[type="reset"], .edit_button{
+   padding:8px 20px;
+   text-align: center;
+   background-color: #00ff00;
+   border:none;
+   border-radius: 4px;
+   color: #000000;
+   cursor: pointer;
+}
+
+#student_list_div table tr td input[type="submit"], .delete_button{
+    padding:8px 20px;
+    text-align: center;
+    background-color: #ff0000;
+    border:none;
+    border-radius: 4px;
+    color: #ffffff;
+    cursor: pointer;
+ }  
+ #student_form_div, #edit_student_form_div{
+    display: none;
+ }
+#student_list_div{
+    display: none;
+}
+ #image {
+    margin-left: 200px;
+    margin-bottom: 20px;
+ }
+ #copy {
+     text-align: center;
+     color: black;
+ }
